@@ -1,0 +1,113 @@
+.capa{
+    background-image: url(../images/8289982_25332.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projetos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.card{
+    background-color: rgb(173, 177, 176);
+    padding: 15px;
+    border-radius: 25px;
+    margin: 35px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.card > img{
+    height: 250px;
+    transition: .5s;
+    filter: grayscale();
+    border-radius: 30px;
+}
+
+.card:hover > img{
+    filter: none;
+}
+
+
+span{
+    font-family: rafa;
+    padding: 15px 0px;
+    justify-content: center;
+    text-align: center;
+}
+
+p{
+    text-indent: 30px;
+    text-align: justify;
+    height: 200px;
+}
+
+
+.projeto1{
+    transition: .5s;
+}
+.projeto1:hover{
+    background-color: #778efe;
+    transition: .5s;
+}
+
+.projeto2{
+    transition: .5s;
+}
+.projeto2:hover{
+    background-color: #5AE4A8;
+    transition: .5s;
+}
+
+.projeto3{
+    transition: .5s;
+}
+.projeto3:hover{
+    background-color: #AAFF00;
+    transition: .5s;
+}
+
+.projeto4{
+    transition: .5s;
+}
+.projeto4:hover{
+    background-color: #778efe;
+    transition: .5s;
+}
+
+.projeto5{
+    transition: .5s;
+}
+.projeto5:hover{
+    background-color: #D268CC;
+    transition: .5s;
+}
+
+.projeto6{
+    transition: .5s;
+}
+.projeto6:hover{
+    background-color: #5AE4A7;
+    transition: .5s;
+}
+
+a:hover > img{
+    scale: 1.3;
+}
+
+.zoom:hover{
+    scale: 1.1;
+}

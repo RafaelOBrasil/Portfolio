@@ -1,0 +1,154 @@
+html{
+    scroll-behavior: smooth;
+}
+
+@font-face{
+    font-family: rafa;
+    src: url(../fonts/Doctor\ Glitch.otf);
+}
+
+:root{
+    --azul: #0f92f3;
+    --azul--escuro: #0a66c2;
+    --branco: #ffffff;
+    --preto: #000000;
+    --menu: #3a3a3a;    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: var(--preto);
+}
+
+
+
+.header, .space{
+    display: flex;
+    flex-direction: row;
+    height: 12vh;
+
+}
+
+.space{
+    width: 10%;
+}
+
+#contLogo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    flex-direction: row;
+    width: 40%;
+}
+
+#contLogo h1{
+    margin-left: 25px;
+    scale: 1.1;
+    font-family: rafa, Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    width: fit-content;
+    transition: .2s;
+}
+#contLogo h1:hover{
+    transition: .2s;
+    scale: 1.15;
+}
+
+#contMenu{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width:35%;
+}
+
+#contMenu ul{
+    width: 300px;
+    display: flex;
+    text-align: left;
+    list-style: none;
+    text-decoration: none;
+}
+
+ul li, a{
+    color: var(--menu);
+    text-decoration: none;
+    font-size: 1em;
+    font-family: rafa;
+    transition: .2s;
+    margin: 0 15px;
+}
+
+a:hover, li:hover{
+    color: var(--preto);
+    transition: .2s;
+    scale: 1.05;
+}
+
+#contRedes{
+    display: flex;
+    position: relative;
+    justify-content: right;
+    align-items: center;
+    width: 35%;
+}
+
+#contRedes #facebook svg{
+    width: 40px;
+    border-radius: 50%;
+    background-color: var(--branco);
+    transition: .2s;
+    border: .2px solid var(--preto);
+}
+
+#contRedes #linkedin svg{
+    width: 40px;
+    border-radius: 50%;
+    background-color: var(--branco);
+    transition: .2s;
+    border: .2px solid var(--preto);
+}
+
+#contRedes #github svg{
+    fill: white;
+    width: 40px;
+    border-radius: 50%;
+    background-color: var(--preto);
+    transition: .2s;
+    border: .2px solid var(--preto);
+}
+
+#contRedes #facebook:hover svg:hover {
+    animation: zoom both;
+    transition: .5s;
+    fill: var(--branco);
+    background-color: var(--azul);
+    border: .2px solid var(--azul);
+}
+#contRedes #linkedin:hover svg:hover {
+    animation: zoom both;
+    transition: .5s;
+    fill: var(--branco);
+    background-color: var(--azul--escuro);
+    border: .2px solid var(--azul--escuro);
+}
+#contRedes #github:hover a svg:hover {
+    animation: zoom both;
+    transition: .5s;
+    fill: var(--preto);
+    background-color: var(--branco);
+    border: .2px solid var(--preto);
+}
+
+header{
+    border-bottom: 1px solid rgb(174, 174, 174);
+}
+
+.titulo{
+    margin-top: 30px;
+    font-family: rafa;
+    text-align: center;
+    }
